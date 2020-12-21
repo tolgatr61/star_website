@@ -1,0 +1,152 @@
+h1 {
+    color: #001f3f;
+    text-transform: uppercase;
+}
+
+
+/* items h1 */
+
+h1:after {
+    content: "»";
+    color: grey;
+    padding: 18px;
+}
+
+h1:before {
+    content: "«";
+    color: grey;
+    padding: 18px;
+}
+
+h2 {
+    background-color: #9932CC;
+    color: white;
+}
+
+main {
+    content: ".";
+    border: 1px solid grey;
+    background: #DDDDDD;
+    width: 60%;
+    /*display:block;*/
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+main li {
+    list-style: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+ul {
+    display: inline-block;
+    padding: 0px 0px 0px 10px;
+}
+
+.gallery li {
+    list-style-type: none;
+    margin: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.gallery h3 {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.gallery h3:hover {
+    font-weight: bold;
+}
+
+.gallery li:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    font-weight: bold;
+}
+
+body {
+    background-image: url("star.png");
+    color: #001f3f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li {
+    list-style-type: none;
+    grid-template-columns: 1fr 3fr;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #DDDDDD;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* items menus */
+
+nav li {
+    margin: 15px;
+}
+
+
+/* survols items menus */
+
+nav li:hover {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border-radius: 8px;
+    padding-top: 25px;
+}
+
+.register_form {
+    text-align: left;
+    display: block;
+    margin-left: 33%;
+}
+
+.input {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    border-color: #80808078;
+    width: auto;
+}
+
+.button {
+    padding: 5px 10px;
+    color: #001f3f;
+    border: none;
+}
+
+.button:hover {
+    color: white;
+    transition: 1s;
+    background-color: #001f3f;
+    border-radius: 10%;
+}
+
+.error {
+    color: red;
+    size: 10;
+}
